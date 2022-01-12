@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppRadioGroup</string>
+    <string name="pregunta">¿Qué sistema operativo prefieres para tu móvil?</string>
+    <string name="aceptar">Aceptar</string>
+
+    <!-- Botones de radio -->
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="windows">Windows Mobile</string>
+    <string name="simbian">Simbian</string>
+    <string name="otro">Otros</string>
+
+    <!-- CheckBox -->
+    <string name="camara">Camara</string>
+    <string name="bluetooh">Bluetooh</string>
+    <string name="sonidoDolby">Sonido Dolby</string>
+
+    <!-- RESPUESTAS -->
+    <string name="RespAndroid">Es una plataforma de código abierto</string>
+    <string name="RespIos">Es un sistema operativo móvil de la multinacional Apple Inc</string>
+    <string name="RespWindow">Es un sistema operativo móvil de desarrollado por Microsoft</string>
+    <string name="RespSimbian">Es un sistema operativo móvil de la propiedad de Nokia</string>
+    <string name="RespOtro">Blackberry OS, Firefos OS </string>
+
+    <string name="RespCamara">Camara</string>
+    <string name="RespBluetooh">Bluetooh</string>
+    <string name="RespSonidoDolby">Sonido Dolby </string>
+
+</resources>

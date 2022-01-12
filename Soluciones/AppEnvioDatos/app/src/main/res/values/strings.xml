@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppEnvioDatos</string>
+    <string name="preg">¿Cómo te llamas?</string>
+    <string name="msgtst">Pon un nombre</string>
+    <string name="boton1">Saludar</string>
+    <string name="boton2">Responder</string>
+    <string name="saludo">Hola, %s, desde la seegunda ventana</string>
+    <string name="antipatico">No seas antipático</string>
+</resources>

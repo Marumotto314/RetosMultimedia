@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppEnvioDatos</string>
+    <string name="saludoSegundaActividad">Hola, %s</string>
+    <string name="antipatico">No hay respuesta :(</string>
+</resources>

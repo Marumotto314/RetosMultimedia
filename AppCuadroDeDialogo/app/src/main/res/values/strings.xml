@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppCuadroDeDialogo</string>
+    <string name="mensaje">Ver mensaje</string>
+    <string name="alerta">Cuadro de alerta</string>
+    <string name="titulo">Alerta titulo</string>
+    <string name="texto">Texto</string>
+    <string name="no">Cancelar</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/incrementar"
+        android:layout_width="135dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#FFEB3B"
+        android:onClick="incrementar"
+        android:text="+1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/decrementar"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="@+id/contador"
+        app:layout_constraintTop_toBottomOf="@+id/contador"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/decrementar"
+        android:layout_width="135dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="24dp"
+        android:onClick="decrementar"
+        android:backgroundTint="#FFEB3B"
+        android:text="-1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/incrementar"
+        app:layout_constraintEnd_toEndOf="@+id/contador"
+        app:layout_constraintStart_toEndOf="@+id/incrementar"
+        app:layout_constraintTop_toTopOf="@+id/incrementar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="277dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="8dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFEB3B"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

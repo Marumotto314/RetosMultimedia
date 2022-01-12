@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AdivinaMiNumero</string>
+    <string name="textoSuperior">He pensado un número entre 1 y 100.\n¡Adivina cuál es!</string>
+    <string name="textoCaja">¡Intentálo!</string>
+    <string name="boton">Probar</string>
+    <string name="intento">¿%d? ¡Uy! El número que he pensado es %s</string>
+</resources>
